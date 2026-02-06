@@ -1,0 +1,7 @@
+CREATE TABLE keys (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    key TEXT UNIQUE,
+    type TEXT,
+    hwid TEXT,
+    used INTEGER DEFAULT 0
+);
